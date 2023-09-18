@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(2,1fr);
+    color: white;
+    font-family: "FF Mark W05",Arial,sans-serif;
+    font-size: 14px ;
+    grid-template-areas: "nav nav nav nav nav nav nav nav nav nav"
+                        "sla sla sla sla video sla sla sla sla sla"
+                        "margem fotinho texto vazio fotinho texto vazio fotinho texto margem ";
+    background-color: #181414;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.logoemp{
+    width: 90px;
+}
+.logojog{
+    width: 32px;
+}
+
+.logar{
+    background-color: rgb(76, 76, 76);
+    margin: auto;
+    padding: 7px 15px;
+    border-radius: 10px;
+}
+.jogar{
+    background-color: rgb(0, 144, 200);
+    color: black;           
+}
